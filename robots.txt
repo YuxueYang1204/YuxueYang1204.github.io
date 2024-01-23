@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: YuxueYang1204.github.io/sitemap.xml
+Sitemap: https://YuxueYang1204.github.io/sitemap.xml
