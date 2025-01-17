@@ -24,3 +24,4 @@ My research focuses on computer vision and pattern recognition, particularly on 
  - LiDAR-based Object Detection
  - Label-efficient Learning
  - 3D Reconstruction
+ - Video Generation
