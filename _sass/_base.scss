@@ -182,8 +182,19 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+.article-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+
+  .clearfix {
+    flex: 1;
+  }
+}
+
 .profile {
   width: 30%;
+  flex-shrink: 0;
 
   .more-info {
     margin-bottom: 5px;
@@ -198,11 +209,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  order: 2;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  order: -1;
 }
 
 @media (min-width: 576px) {

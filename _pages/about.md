@@ -21,7 +21,5 @@ Hi! I am currently a third year Ph.D. student at the [New Laboratory of Pattern 
 
 My research focuses on computer vision and pattern recognition, particularly on the following topics:
 
- - LiDAR-based Object Detection
- - Label-efficient Learning
- - 3D Reconstruction
+ - 3D/4D Reconstruction
  - Video Generation
