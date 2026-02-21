@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:tada: Our paper "Super Sparse 3D Object Detection" was accepted by IEEE TPAMI 2023!
+:tada: Our paper "Super Sparse 3D Object Detection" has been accepted by IEEE TPAMI 2023!
