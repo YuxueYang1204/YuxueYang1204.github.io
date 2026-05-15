@@ -66,6 +66,38 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Experience -->
+    {% if page.experience %}
+      <h2>Experiences</h2>
+      <ul class="card-text font-weight-light list-group list-group-flush">
+        <li class="list-group-item border-0">
+          <div class="row align-items-center">
+            <div class="col col-sm-3 text-center" style="background-color: white; padding: 6px; border-radius: 6px;">
+              {% include figure.liquid loading="eager" path="assets/img/hunyuan.png" class="img-fluid rounded" alt="Tencent Hunyuan" %}
+            </div>
+            <div class="col col-sm-9">
+              <h6 class="title font-weight-bold ml-1 ml-md-4" style="font-size: 1.1rem">Tencent Hunyuan (Qingyun Project)</h6>
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Research on video generation and world model.</h6>
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">2026.04 - Present</h6>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item border-0">
+          <div class="row align-items-center">
+            <div class="col col-sm-3 text-center">
+              <img src="{{ 'assets/img/CreateAI.svg' | relative_url }}" class="img-fluid rounded" alt="CreateAI" width="100%" height="auto">
+            </div>
+            <div class="col col-sm-9">
+              <h6 class="title font-weight-bold ml-1 ml-md-4" style="font-size: 1.1rem">CreateAI</h6>
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Research on video generation and world model.</h6>
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Published two papers: <a href="https://layeranimate.github.io/" target="_blank">LayerAnimate (ICCV 2025)</a> and <a href="https://neoverse-4d.github.io/" target="_blank">NeoVerse (CVPR 2026 Highlight & Best Paper of VideoWorldModel Workshop @ CVPR 2026)</a>.</h6>
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">2024.06 - 2026.02</h6>
+            </div>
+          </div>
+        </li>
+      </ul>
+    {% endif %}
+
     <!-- Academic service -->
     {% if page.academic_service %}
 
@@ -83,6 +115,7 @@ layout: default
         </ul>
         <strong>Journal Reviewer</strong>:
         <ul>
+        <li> IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>), 2026 </li>
         <li> IEEE Transactions on Circuits and Systems for Video Technology (<strong>TCSVT</strong>), 2024 </li>
       </p>
       <p></p>

@@ -13,13 +13,14 @@ profile:
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
+experience: true
 academic_service: true
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I am currently a third year Ph.D. student at the [New Laboratory of Pattern Recognition (NLPR)](http://cripac.ia.ac.cn/en/EN/volumn/home.shtml), [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn/), [School of Artificial Intelligence, University of Chinese Academy of Sciences (UCAS)](https://ai.ucas.ac.cn), supervised by Prof. [Zhaoxiang Zhang](https://zhaoxiangzhang.net/). Before that, I got my Bachelor's degree from Nankai University in 2023, majoring in intelligent science and technology.
+Hi! I am currently a third year Ph.D. student at the [NLPR](http://cripac.ia.ac.cn/en/EN/volumn/home.shtml), [CASIA](http://english.ia.cas.cn/) and [School of Artificial Intelligence, UCAS](https://ai.ucas.ac.cn), supervised by Prof. [Zhaoxiang Zhang](https://zhaoxiangzhang.net/). Before that, I got my Bachelor's degree from Nankai University in 2023, majoring in intelligent science and technology.
 
 My research focuses on computer vision and pattern recognition, particularly on the following topics:
 
  - 3D/4D Reconstruction
- - Video Generation
+ - Video World Model
