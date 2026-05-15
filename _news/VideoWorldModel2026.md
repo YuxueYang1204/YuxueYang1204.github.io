@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:tada: NeoVerse has been selected as the best paper of [VideoWorldModel Workshop @ CVPR 2026](https://videoworldmodel-workshop.github.io/)!
+:tada: NeoVerse has been selected as the <strong>best paper</strong> of [VideoWorldModel Workshop @ CVPR 2026](https://videoworldmodel-workshop.github.io/)!
