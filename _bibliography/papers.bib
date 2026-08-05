@@ -1,5 +1,21 @@
 ---
 ---
+@article{yang2026worldexam,
+  author    = {Yang* †, Yuxue and Shang*, Shuyao and Wang, Jiahe and Zhou, Zitong and Tan, Liang and Zeng, Junhan and Li, Ruizhi and Li, Junyan and Liu, Yu and Yang, Xiao and Li, Yong and Zhu, Jun and Li, Hongsheng and Tan, Tieniu and Fan† <sup>✉️</sup>, Lue and Zhang<sup>✉️</sup>, Zhaoxiang},
+  title     = {WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity},
+  journal   = {arXiv preprint arXiv:2608.02603},
+  month     = {August},
+  year      = {2026},
+  abstract  = {Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in this role extends beyond the apparent appearance of generated videos to the inherent reactivity of the worlds they depict: the ability to infer from the scene state how the world should react and to generate plausible consequences not explicitly described in the input. Yet existing benchmarks mainly assess visual quality or explicit instruction fulfillment by checking whether requested actions and interaction outcomes are realized, leaving inherent reactivity underexamined. We introduce WorldExam, a hierarchical diagnostic benchmark spanning four levels: Visual Quality, Control Adherence, Spatial Consistency, and World Reactivity. It comprises 1,474 cases across eight dedicated tasks and supports unified evaluation of camera-, action-, and language-driven model paradigms. The World Reactivity level evaluates scene-conditioned reactions and goal-directed behaviors beyond what is explicitly specified in the input. Evaluation of 20 representative models reveals a clear capability split. Camera-driven models excel at camera control, but their interfaces do not support dynamic interaction; action-driven models control subjects more precisely but often leave the world unresponsive; and language-driven models perform better on interaction but follow complex controls less faithfully. No model combines broad task coverage with consistently strong performance, showing that high visual quality and explicit instruction fulfillment do not guarantee inherent reactivity.},
+  abbr      = {arXiv},
+  selected  = {true},
+  code      = "https://github.com/YuxueYang1204/worldexam",
+  preview   = {WorldExam_teaser.png},
+  html      = "https://worldexam.github.io/",
+  arxiv     = {2608.02603},
+  annotation={* Equal Contribution<br> † Project Leaders<br>✉️ Corresponding Authors}
+}
+
 @InProceedings{yang2026neoverse,
   author    = {Yang, Yuxue and Fan<sup>✉️</sup> †, Lue and Shi, Ziqi and Peng, Junran and Wang, Feng and Zhang<sup>✉️</sup>, Zhaoxiang},
   title     = {NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos},
@@ -40,6 +56,7 @@
   journal   = {arXiv preprint arXiv:2406.07499},
   year      = {2024},
   abstract  = {In this paper, we introduce Trim 3D Gaussian Splatting (TrimGS) to reconstruct accurate 3D geometry from images. Previous arts for geometry reconstruction from 3D Gaussians mainly focus on exploring strong geometry regularization. Instead, from a fresh perspective, we propose to obtain accurate 3D geometry of a scene by Gaussian trimming, which selectively removes the inaccurate geometry while preserving accurate structures. To achieve this, we analyze the contributions of individual 3D Gaussians and propose a contribution-based trimming strategy to remove the redundant or inaccurate Gaussians. Furthermore, our experimental and theoretical analyses reveal that a relatively small Gaussian scale is a non-negligible factor in representing and optimizing the intricate details. Therefore the proposed TrimGS maintains relatively small Gaussian scales. In addition, TrimGS is also compatible with the effective geometry regularization strategies in previous arts. When combined with the original 3DGS and the state-of-the-art 2DGS, TrimGS consistently yields more accurate geometry and higher perceptual quality.},
+	abbr      = {arXiv},
   selected  = {true},
   code      = "https://github.com/YuxueYang1204/TrimGS",
   preview   = {trimgs_teaser.png},
