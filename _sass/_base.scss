@@ -468,6 +468,20 @@ footer.sticky-bottom {
   }
 }
 
+// Experience entries
+
+.experience-list {
+  .list-group-item {
+    background-color: transparent;
+  }
+
+  .experience-logo {
+    background-color: $white-color;
+    border-radius: 6px;
+    padding: 6px;
+  }
+}
+
 // CV
 
 .cv {

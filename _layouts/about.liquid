@@ -69,10 +69,10 @@ layout: default
     <!-- Experience -->
     {% if page.experience %}
       <h2>Experiences</h2>
-      <ul class="card-text font-weight-light list-group list-group-flush">
+      <ul class="experience-list card-text font-weight-light list-group list-group-flush">
         <li class="list-group-item border-0">
           <div class="row align-items-center">
-            <div class="col col-sm-3 text-center" style="background-color: white; padding: 6px; border-radius: 6px;">
+            <div class="experience-logo col col-sm-3 text-center">
               {% include figure.liquid loading="eager" path="assets/img/hunyuan.png" class="img-fluid rounded" alt="Tencent Hunyuan" %}
             </div>
             <div class="col col-sm-9">
@@ -84,7 +84,7 @@ layout: default
         </li>
         <li class="list-group-item border-0">
           <div class="row align-items-center">
-            <div class="col col-sm-3 text-center">
+            <div class="experience-logo col col-sm-3 text-center">
               <img src="{{ 'assets/img/CreateAI.svg' | relative_url }}" class="img-fluid rounded" alt="CreateAI" width="100%" height="auto">
             </div>
             <div class="col col-sm-9">
